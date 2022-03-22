@@ -15,17 +15,17 @@ export default class Slideshow extends Component {
 			<Carousel>
            
 				<div>
-					<Image src={Ione} height={400} width={600} alt="image1"/>
+					<Image src={Ione} height={500} width={1000} alt="image1"/>
 					
 
 				</div>
 				<div>
-					<Image src={Itwo} height={400} width={600} alt="image2" />
+					<Image src={Itwo} height={500} width={1000} alt="image2" />
 					
 
 				</div>
 				<div>
-					<Image src={Ithree} height={400} width={600} alt="image3"/>
+					<Image src={Ithree} height={500} width={1000} alt="image3"/>
 					
 
 				</div>
