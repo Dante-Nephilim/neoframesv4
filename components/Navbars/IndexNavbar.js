@@ -12,7 +12,7 @@ export default function Navbar(props) {
     <>
       <nav className="top-0 fixed bg-black z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg  shadow">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start items-center">
             <Link href="/">
               <a
                 className="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
@@ -43,10 +43,10 @@ export default function Navbar(props) {
              
               <li className="flex items-center">
                 <a
-                  className="hover:text-blueGray-500 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-yellow-600 text-black px-3 py-4 lg:text-white lg:py-2 flex items-center text-xs uppercase font-bold"
                   href=""
                 >
-                  <i className="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2" />{" "}
+                  {/* <i className="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2" />{" "} */}
                   Start Designing
                 </a>
               </li>
